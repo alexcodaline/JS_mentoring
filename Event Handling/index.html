@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Event Handling</title>
+  </head>
+  <body>
+    <form id="form">
+      <p>
+        <label for="login">login</label>
+        <input
+          type="text"
+          name="login"
+          id="login"
+          placeholder="Enter your login"
+        />
+        <span id="error-login">Your login is too short</span>
+      </p>
+      <p>
+        <label for="email">Email</label>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+        />
+        <span id="error-email">You email is not valid</span>
+      </p>
+      <p>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter your password"
+        />
+        <span id="error-password">Your password is not valid</span>
+      </p>
+      <button class="btnSbm" type="submit">Submit</button>
+    </form>
+    <script src="./index.js"></script>
+  </body>
+</html>

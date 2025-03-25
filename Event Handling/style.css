@@ -1,0 +1,10 @@
+#error-login, #error-email, #error-password {
+    color: red;
+    display: none;
+}
+.invalid {
+    border-color: red;
+}
+.valid {
+    background-color: green;
+}
