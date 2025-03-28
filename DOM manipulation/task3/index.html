@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Phone book</title>
+  </head>
+  <body>
+    <section class="wrapper">
+      <h1>Phone book</h1>
+      <form id="form" class="form">
+        <label for="phoneNumb">
+          Phone:
+          <input type="tel" id="phoneNumb" placeholder="Number" required />
+        </label>
+        <label for="contact">
+          Contact:
+          <input type="text" id="nameContact" placeholder="Name" required />
+        </label>
+        <button type="submit">Add Contact</button>
+      </form>
+      <ul id="phonebook">
+      </ul>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
