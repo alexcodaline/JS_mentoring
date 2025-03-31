@@ -31,8 +31,17 @@ button {
   cursor: pointer;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
-
-.phone, .name {
-    font-size: 20px;
-    font-weight: normal;
+#phonebook {
+  list-style-type: disc;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+li {
+ 
+}
+.phone,
+.name {
+  font-size: 20px;
+  font-weight: normal;
 }
