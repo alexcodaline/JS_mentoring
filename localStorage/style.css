@@ -1,0 +1,16 @@
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+  position: relative;
+  display: block;
+  height: 20px;
+  border: 1px solid #4e4efc;
+  border-radius: 10px;
+  background-color: #fafafa;
+  cursor: pointer;
+}
+.dark-theme {
+  background-color: cadetblue;
+}

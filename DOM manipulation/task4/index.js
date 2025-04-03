@@ -13,8 +13,6 @@ addComment.addEventListener("submit", (e) => {
     // ------------------comment container
     const commentContent = document.createElement("div");
     commentContent.classList.add("comment-content");
-
-    // Create wrapper for comment text
     const commentTextWrapper = document.createElement("div");
     commentTextWrapper.classList.add("comment-text");
     commentTextWrapper.textContent = newCommentText;
